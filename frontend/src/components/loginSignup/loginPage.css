@@ -1,0 +1,112 @@
+
+.loginMainContainer{
+    height: 100vh;
+    width: 100vw;
+    background-color: #F4F2EC;
+    font-family: "Roboto", sans-serif;
+}
+
+
+.loginNavBar{
+    width: 100vw;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+}
+
+
+
+.loginLogo {
+    height: 83px;
+    width: 173px;
+    margin-left: 2.5vw;
+}
+
+.loginContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 90vh;
+    background-image: url("../assets/loginBackground.png");
+    background-position: bottom center;
+    background-size: 104vw 72vh;
+    background-repeat: no-repeat;
+    
+}
+
+.loginContainer .loginContent{
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 86%;
+    width: 30%;
+    border-radius: 25px;
+    box-shadow: 1px 9px 10px rgba(0,0,0,0.5);
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+   
+    
+}
+
+
+.loginContent h1{
+    font-size: 3vw;
+    color: black;
+}
+
+.loginContent .loginInput{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 4vh;
+}
+
+.loginInput label{
+    margin-left: -15vw;
+    color: black;
+}
+
+.loginInput input{
+    width: 25vw;
+    padding-left: 20px;
+    height: 32px;
+    border: 1px solid black;
+    color: black;
+    border-radius: 20px;
+    background-color: white;
+}
+
+.loginBlackButton{
+    margin-top: 33px;
+    width: 12vw;
+    height: 40px;
+    border: 2px solid black;
+    border-radius: 20px;
+    background: black;
+    color: white;
+    font-weight: bolder;
+}
+
+
+.loginContent .loginOption{
+    font-family: "Gentium Book Plus", serif;
+    display: flex;
+    margin-top: 16px;
+    gap: 5px;
+    align-items: center;
+    justify-content: center;
+}
+
+.loginOption a{
+    color: black;
+    text-decoration: none;
+    font-weight: 900;
+}
+
+.loginOption p{
+    font-size:1.2vw;
+    color: black;
+}
